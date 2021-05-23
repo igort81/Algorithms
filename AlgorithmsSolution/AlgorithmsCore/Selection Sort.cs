@@ -36,5 +36,25 @@ namespace AlgorithmsCore
             }
             return smallestIndex;
         }
+
+        public static int FindLargest(List<int> unsortedList)
+        {
+
+            if (unsortedList.Count == 0)
+            {
+                return -1;
+            }
+            int largestValue = unsortedList[0];
+            int largestIndex = 0;
+            for (int i = 0; i < unsortedList.Count; i++)
+            {
+                if (largestValue < unsortedList[i])
+                {
+                    largestValue = unsortedList[i];
+                    largestIndex = i;
+                }
+            }
+            return largestIndex;
+        }
     }
 }
