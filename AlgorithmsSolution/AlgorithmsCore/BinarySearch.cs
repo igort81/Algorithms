@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Algorithms
+namespace AlgorithmsCore
 {
     public static class BinarySearch
     {
