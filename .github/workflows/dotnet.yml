@@ -18,7 +18,7 @@ jobs:
       with:
         dotnet-version: 5.0.x
     - name: Change work directory
-      run: cd AlgorithmsSolution
+      run: cd /home/runner/work/Algorithms/Algorithms/AlgorithmsSolution
     - name: Restore dependencies
       run: dotnet restore
     - name: Build
