@@ -9,7 +9,7 @@ namespace AlgorithmsCore
     public static class QuickSort
     {
         private static int GetPivot(List<int> unsortedList) {
-            var medianValue = (Selection_Sort.FindLargest(unsortedList)+ Selection_Sort.FindSmallest(unsortedList))/2;
+            var medianValue = (SelectionSort.FindLargest(unsortedList)+ SelectionSort.FindSmallest(unsortedList))/2;
             var pivotIndex = 0;
             var smalestDiff = int.MaxValue;
             for (int i = 0; i < unsortedList.Count; i++)

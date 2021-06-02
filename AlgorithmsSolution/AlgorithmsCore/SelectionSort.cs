@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AlgorithmsCore
 {
-    public static class Selection_Sort
+    public static class SelectionSort
     {
         public static List<int> DoMinSelectionSort(List<int> unsortedList) {
             List<int> result = new List<int>();
